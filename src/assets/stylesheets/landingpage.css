@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.center-btn {
+
+  background: #65a9d7;
+  width: 350px;
+  height: 55px;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  align-self: flex-end;
+  padding-left: 35px;
+
+}
+
+
+.about {
+
+  position: absolute;
+  top:75%;
+  left: 25%;
+  font-size: 40px;
+  color: white;
+  text-shadow: 4px 4px 10px cornflowerblue;
+  font-family: "Pacifico", cursive;
+}
+.carouselImg{
+  height: 50rem;
+  opacity: 0.7;
+  height: cover;
+}
+.carousel{
+  height: 100%;
+  z-index: -1;
+}

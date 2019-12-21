@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  padding: 10px;
+  color: rgb(33, 72, 146);
+  text-align: center;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  width: 100vw;
+  height: 0px;
+  z-index:2 ;
+}
+
+.paw {
+  height: 32px;
+  margin: 0;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Pacifico", cursive;
+}
+
+.slogan {
+  font-size: 15px;
+  font-family: "Pacifico", cursive;
+}
+
+
+.button-nav {
+  align-self: flex-start;
+}
+.peek{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    left: 78%;
+}
+
+.nav-btn {
+    position: relative;
+    top: 65%;
+   
+}
+
+.web-name {
+    font-family: 'Unkempt', cursive;
+}
+
+.slogan {
+    font-family: 'Unkempt', cursive;
+}
+

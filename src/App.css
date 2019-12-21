@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    height:30px;
+    width:80px;
+    margin: 20px;
+    font-family: 'Unkempt', cursive;
+    
+}
+
+button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+
+button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+.dogs {
+    background-clip: padding-box;
+    display: grid;
+    grid-gap: 0x;
+    grid-template-columns: repeat(4, 24vw);
+    width: 99vw;
+    border-radius: 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(16, 10, 100, 0.2);
+    border-radius: 20px;
+    transition: 0.3s;
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+  }
+  
+  /* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(7, 5, 5, 0.2);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  } */
+  
+  .container {
+    height: 50px;
+    text-align: center;
+    font-style: inherit;
+    font-family: "Inconsolata", monospace;
+    color: cornflowerblue;
+  }
+  .pic-dogs {
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* .fa-paw {
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+  } */
+  .card:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  .dog-pics {
+    height: 350px !important;
+  }
+  .carousel-div{
+    width:1000px ;
+    height: 1000px;
+  }

@@ -1,0 +1,27 @@
+
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+
+.form-field {
+  font-display: 1rem;
+  border: 2px solid lightgray;
+} 
+label, .form-field {
+  margin-left: 1rem;
+}
+.header{
+  border: 0;
+}
+
+.message-text-area{
+    font-family: Georgia, serif;
+    font-size: large;
+    border: 2px solid lightgray;
+}
+
+
+
