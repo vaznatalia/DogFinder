@@ -47,7 +47,7 @@ class Slideshow extends React.Component {
                         <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <div className="find-bt">
+                
       
         )
     }

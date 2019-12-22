@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: aliceblue;
 }
 .center-btn {
 
@@ -20,7 +21,7 @@ body {
 .about {
 
   position: absolute;
-  top:75%;
+  top:55%;
   left: 25%;
   font-size: 40px;
   color: white;

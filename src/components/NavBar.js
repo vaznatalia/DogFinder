@@ -12,22 +12,22 @@ const Navbar = () => {
       const handleClickContact =() => {
         window.location = '/dogs';
       }
+      const handleClickLogo = () => {
+        window.location ="/LandingPage"
+      }
 
   return (
   <nav>
     <ul>
-      <li><img className="paw" src={Paw} alt={"paw"} /></li>
-      <li><h1>DogFriendFinder</h1></li>
-      
+      <li><a href="/" ><img  onClick={handleClickLogo} className="paw" src={Paw} alt={"paw"}/></a></li>
+      <li className="web-name"  onClick={handleClickLogo}><h1>DogFinder</h1></li>
+      <li className="slogan"  onClick={handleClickLogo}>Adopt a Friendly Companion</li>
     </ul>
-    <div className="button-nav" >
-      <button>Services</button>
-      <button>Resouces</button>
-      <button>LogIn</button>
+    <div className="btn" >
     
-      </div>
-  
-
+      <button onClick={handleClickAdopt} className="nav-btn">Adopt</button>
+      <button onClick={handleClickContact} className="nav-btn">Contact</button>
+    </div>
   </nav>
   )}
 
