@@ -13,7 +13,8 @@ body {
   font-family: "Pacifico", cursive;
   display: flex;
   align-self: flex-end;
-  padding-left: 35px;
+  margin-left: 80px;
+  padding-left: 45px;
 
 }
 
@@ -30,10 +31,12 @@ body {
 }
 .carouselImg{
   height: 50rem;
+  width: auto;
   opacity: 0.7;
   height: cover;
 }
 .carousel{
   height: 100%;
+  width: 100%;
   z-index: -1;
 }
